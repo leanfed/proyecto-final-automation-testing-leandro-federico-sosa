@@ -28,6 +28,30 @@ def create_driver() -> webdriver.Chrome:
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-notifications")
+    options.add_argument("--disable-popup-blocking")
+
+    # Evita que Chrome interrumpa los tests con avisos de contraseñas guardadas,
+    # filtradas o recomendación de cambio de contraseña.
+    options.add_argument("--disable-save-password-bubble")
+    options.add_argument(
+        "--disable-features="
+        "PasswordLeakDetection,"
+        "PasswordManagerOnboarding,"
+        "PasswordGeneration,"
+        "AutofillServerCommunication"
+    )
+
+    chrome_prefs = {
+        "credentials_enable_service": False,
+        "profile.password_manager_enabled": False,
+        "profile.password_manager_leak_detection": False,
+        "autofill.profile_enabled": False,
+        "autofill.credit_card_enabled": False,
+        "safebrowsing.enabled": False,
+    }
+
+    options.add_experimental_option("prefs", chrome_prefs)
+    options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
     driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(Config.PAGE_LOAD_TIMEOUT)

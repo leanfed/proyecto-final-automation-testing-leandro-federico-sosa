@@ -15,6 +15,7 @@ class InventoryPage(BasePage):
     PAGE_TITLE = (By.CLASS_NAME, "title")
     MENU_BUTTON = (By.ID, "react-burger-menu-btn")
     LOGOUT_LINK = (By.ID, "logout_sidebar_link")
+    LOGIN_BUTTON = (By.ID, "login-button")
     PRODUCT_SORT = (By.CLASS_NAME, "product_sort_container")
     PRODUCT_CARDS = (By.CLASS_NAME, "inventory_item")
     PRODUCT_NAMES = (By.CLASS_NAME, "inventory_item_name")
@@ -64,9 +65,18 @@ class InventoryPage(BasePage):
         return self
 
     def logout(self) -> "InventoryPage":
+        """Cierra sesión y espera explícitamente el regreso a la pantalla de login."""
         self.open_menu()
         self.click(self.LOGOUT_LINK)
+
+        # Evita que el test valide la pantalla de login antes de que termine la redirección.
+        self.wait.until(EC.visibility_of_element_located(self.LOGIN_BUTTON))
+
         return self
 
     def are_main_controls_visible(self) -> bool:
-        return self.is_visible(self.MENU_BUTTON) and self.is_visible(self.PRODUCT_SORT) and self.is_visible(self.CART_LINK)
+        return (
+            self.is_visible(self.MENU_BUTTON)
+            and self.is_visible(self.PRODUCT_SORT)
+            and self.is_visible(self.CART_LINK)
+        )
