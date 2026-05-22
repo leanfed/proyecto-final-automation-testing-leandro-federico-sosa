@@ -1,0 +1,53 @@
+name: Automation Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    env:
+      HEADLESS: "true"
+      CI: "true"
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar Google Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Preparar carpetas de evidencias
+        run: |
+          mkdir -p reports/screenshots
+          mkdir -p logs
+
+      - name: Ejecutar pruebas con Pytest
+        run: |
+          pytest -v --html=reports/reporte.html --self-contained-html
+
+      - name: Publicar reportes y evidencias
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: automation-test-results
+          path: |
+            reports/
+            logs/
