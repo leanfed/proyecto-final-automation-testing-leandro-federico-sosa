@@ -1,0 +1,791 @@
+2026-05-22 10:57:30 | INFO | test_execution | Inicio test_get_post_existente_devuelve_estructura_valida
+2026-05-22 10:57:30 | INFO | test_execution | Inicio test_get_post_inexistente_devuelve_404
+2026-05-22 10:57:31 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Proyecto final QA Automation
+2026-05-22 10:57:32 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Segundo escenario parametrizado
+2026-05-22 10:57:33 | INFO | test_execution | Inicio test_delete_post_devuelve_respuesta_exitosa
+2026-05-22 10:57:33 | INFO | test_execution | Inicio test_flujo_api_crear_actualizar_y_eliminar_recurso
+2026-05-22 10:57:42 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:57:42 | INFO | test_execution | Inicio test_login_data_driven | usuario=standard_user | esperado=True
+2026-05-22 10:57:42 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:57:43 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:57:43 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 10:57:43 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:57:43 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:57:43 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:57:44 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 10:57:44 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:57:44 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 10:57:44 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:57:48 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:57:48 | INFO | test_execution | Inicio test_login_data_driven | usuario=locked_out_user | esperado=False
+2026-05-22 10:57:48 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:57:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:57:49 | INFO | LoginPage | Ejecutando login con usuario: locked_out_user
+2026-05-22 10:57:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:57:53 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:57:54 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:57:54 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 10:57:58 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:57:58 | INFO | test_execution | Inicio test_login_data_driven | usuario=usuario_invalido | esperado=False
+2026-05-22 10:57:58 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:57:59 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:57:59 | INFO | LoginPage | Ejecutando login con usuario: usuario_invalido
+2026-05-22 10:57:59 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:58:00 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:58:00 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:58:00 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 10:58:04 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:58:04 | INFO | test_execution | Inicio test_catalogo_muestra_productos_y_controles
+2026-05-22 10:58:04 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:58:05 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:58:05 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 10:58:05 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:58:05 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:58:05 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:58:05 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 10:58:06 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:06 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 10:58:06 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 10:58:06 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 10:58:06 | INFO | test_execution | Primer producto listado: Sauce Labs Backpack | $29.99
+2026-05-22 10:58:06 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:06 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 10:58:10 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:58:10 | INFO | test_execution | Inicio test_agregar_primer_producto_al_carrito
+2026-05-22 10:58:10 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:58:12 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:58:12 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 10:58:12 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:58:13 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:58:13 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:58:13 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 10:58:13 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:13 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 10:58:13 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 10:58:13 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 10:58:14 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 10:58:14 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 10:58:14 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 10:58:14 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 10:58:14 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 10:58:14 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:14 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:14 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'cart_item')
+2026-05-22 10:58:14 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 10:58:18 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:58:18 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 10:58:18 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:58:20 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:58:20 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 10:58:20 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:58:20 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:58:21 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 10:58:21 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 10:58:21 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 10:58:21 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:21 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 10:58:22 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 10:58:22 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:22 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 10:58:45 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_105845_test_checkout_completo_de_un_producto.png
+2026-05-22 10:58:49 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 10:58:49 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 10:58:49 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 10:58:50 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 10:58:50 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 10:58:50 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 10:58:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 10:58:51 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 10:58:51 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 10:58:51 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 10:58:51 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 10:58:51 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 10:58:52 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 10:58:55 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_105855_test_logout_regresa_a_login.png
+2026-05-22 11:23:42 | INFO | test_execution | Inicio test_get_post_existente_devuelve_estructura_valida
+2026-05-22 11:23:43 | INFO | test_execution | Inicio test_get_post_inexistente_devuelve_404
+2026-05-22 11:23:43 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Proyecto final QA Automation
+2026-05-22 11:23:44 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Segundo escenario parametrizado
+2026-05-22 11:23:45 | INFO | test_execution | Inicio test_delete_post_devuelve_respuesta_exitosa
+2026-05-22 11:23:45 | INFO | test_execution | Inicio test_flujo_api_crear_actualizar_y_eliminar_recurso
+2026-05-22 11:29:44 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:29:44 | INFO | test_execution | Inicio test_login_data_driven | usuario=standard_user | esperado=True
+2026-05-22 11:29:44 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:29:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:29:45 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:29:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:29:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:29:45 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:29:45 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:29:45 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:29:45 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:29:46 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:29:50 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:29:50 | INFO | test_execution | Inicio test_login_data_driven | usuario=locked_out_user | esperado=False
+2026-05-22 11:29:50 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:29:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:29:51 | INFO | LoginPage | Ejecutando login con usuario: locked_out_user
+2026-05-22 11:29:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:29:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:29:51 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:29:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:29:56 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:29:56 | INFO | test_execution | Inicio test_login_data_driven | usuario=usuario_invalido | esperado=False
+2026-05-22 11:29:56 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:29:56 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:29:56 | INFO | LoginPage | Ejecutando login con usuario: usuario_invalido
+2026-05-22 11:29:56 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:29:57 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:29:57 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:29:57 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:30:01 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:30:01 | INFO | test_execution | Inicio test_catalogo_muestra_productos_y_controles
+2026-05-22 11:30:01 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:30:02 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:30:15 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:30:15 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:30:15 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:30:15 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:30:15 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:30:15 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:15 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:30:16 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:30:16 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:30:16 | INFO | test_execution | Primer producto listado: Sauce Labs Backpack | $29.99
+2026-05-22 11:30:16 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:16 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:30:22 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:30:22 | INFO | test_execution | Inicio test_agregar_primer_producto_al_carrito
+2026-05-22 11:30:22 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:30:24 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:30:24 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:30:24 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:30:24 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:30:24 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:30:24 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:30:24 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:30:25 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:30:25 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:30:25 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:25 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:25 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'cart_item')
+2026-05-22 11:30:25 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:30:30 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:30:30 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:30:30 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:30:30 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:30:30 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:30:30 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:30:31 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:30:31 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:30:31 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:30:31 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:30:31 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:31 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:30:31 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:30:32 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:32 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:30:46 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_113046_test_checkout_completo_de_un_producto.png
+2026-05-22 11:30:51 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:30:51 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:30:51 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:30:52 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:30:52 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:30:52 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:30:52 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:30:52 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:30:52 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:30:52 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:30:52 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:30:52 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:30:53 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 11:30:56 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_113056_test_logout_regresa_a_login.png
+2026-05-22 11:32:34 | INFO | test_execution | Inicio test_get_post_existente_devuelve_estructura_valida
+2026-05-22 11:32:34 | INFO | test_execution | Inicio test_get_post_inexistente_devuelve_404
+2026-05-22 11:32:34 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Proyecto final QA Automation
+2026-05-22 11:32:34 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Segundo escenario parametrizado
+2026-05-22 11:32:34 | INFO | test_execution | Inicio test_delete_post_devuelve_respuesta_exitosa
+2026-05-22 11:32:35 | INFO | test_execution | Inicio test_flujo_api_crear_actualizar_y_eliminar_recurso
+2026-05-22 11:32:38 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:32:38 | INFO | test_execution | Inicio test_login_data_driven | usuario=standard_user | esperado=True
+2026-05-22 11:32:38 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:32:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:32:39 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:32:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:32:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:32:39 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:32:39 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:32:39 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:32:39 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:32:39 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:32:44 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:32:44 | INFO | test_execution | Inicio test_login_data_driven | usuario=locked_out_user | esperado=False
+2026-05-22 11:32:44 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:32:44 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:32:44 | INFO | LoginPage | Ejecutando login con usuario: locked_out_user
+2026-05-22 11:32:44 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:32:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:32:45 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:32:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:32:49 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:32:49 | INFO | test_execution | Inicio test_login_data_driven | usuario=usuario_invalido | esperado=False
+2026-05-22 11:32:49 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:32:50 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:32:50 | INFO | LoginPage | Ejecutando login con usuario: usuario_invalido
+2026-05-22 11:32:50 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:32:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:32:51 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:32:51 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:32:55 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:32:55 | INFO | test_execution | Inicio test_catalogo_muestra_productos_y_controles
+2026-05-22 11:32:55 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:32:57 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:32:57 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:32:57 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:32:58 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:32:58 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:32:58 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:32:58 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:32:58 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:32:58 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:32:58 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:32:58 | INFO | test_execution | Primer producto listado: Sauce Labs Backpack | $29.99
+2026-05-22 11:32:58 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:32:59 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:33:03 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:33:03 | INFO | test_execution | Inicio test_agregar_primer_producto_al_carrito
+2026-05-22 11:33:03 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:33:04 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:33:04 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:33:04 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:33:04 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:33:05 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:33:05 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:33:05 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:33:05 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:05 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:06 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'cart_item')
+2026-05-22 11:33:06 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:33:10 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:33:10 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:33:10 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:33:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:33:11 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:33:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:33:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:33:11 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:33:11 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:33:11 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:11 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:33:12 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:33:12 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:33:12 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:33:12 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:33:12 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:33:12 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:33:12 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:12 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:33:12 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:33:12 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:12 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:33:12 | INFO | CheckoutPage | Completando datos de checkout para: Federico Sosa
+2026-05-22 11:33:12 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:33:12 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'last-name')
+2026-05-22 11:33:12 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'postal-code')
+2026-05-22 11:33:13 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'continue')
+2026-05-22 11:33:13 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'summary_total_label')
+2026-05-22 11:33:44 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_113344_test_checkout_completo_de_un_producto.png
+2026-05-22 11:33:48 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:33:48 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:33:48 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:33:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:33:49 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:33:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:33:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:33:49 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:33:50 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:33:50 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:33:50 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:33:50 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:33:50 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 11:33:54 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_113354_test_logout_regresa_a_login.png
+2026-05-22 11:38:00 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:38:00 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:38:00 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:38:02 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:38:02 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:38:02 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:38:03 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:38:03 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:38:03 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:38:03 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:38:03 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:38:03 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:38:03 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:38:03 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:38:03 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:38:04 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:38:04 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:38:04 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:38:04 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:38:04 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Completando datos de checkout para: Federico Sosa
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'last-name')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'postal-code')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'continue')
+2026-05-22 11:38:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'summary_total_label')
+2026-05-22 11:38:15 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_113815_test_checkout_completo_de_un_producto.png
+2026-05-22 11:38:20 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:38:20 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:38:20 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:38:20 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:38:21 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:38:21 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:38:21 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:38:21 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:38:21 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:38:21 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:38:21 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:38:21 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:38:22 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 11:38:25 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_113825_test_logout_regresa_a_login.png
+2026-05-22 11:42:44 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:42:44 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:42:44 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:42:46 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:42:46 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:42:46 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:42:47 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:42:47 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:42:47 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:42:47 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:42:47 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:42:47 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:42:47 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:42:48 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:42:48 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:42:48 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:42:48 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:42:48 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:42:48 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:42:48 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:42:48 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:42:48 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:42:48 | INFO | CheckoutPage | Completando datos de checkout para: Federico Sosa
+2026-05-22 11:42:48 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:42:48 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'last-name')
+2026-05-22 11:42:48 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'postal-code')
+2026-05-22 11:42:49 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'continue')
+2026-05-22 11:42:49 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:42:49 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'summary_total_label')
+2026-05-22 11:42:49 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:42:49 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'finish')
+2026-05-22 11:42:59 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_114259_test_checkout_completo_de_un_producto.png
+2026-05-22 11:43:04 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:43:04 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:43:04 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:43:06 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:43:06 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:43:06 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:43:07 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:43:07 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:43:07 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:43:07 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:43:07 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:43:07 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:43:08 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 11:43:18 | ERROR | screenshots | Test fallido. Screenshot guardado en: C:\Users\lfede\OneDrive\Desktop\proyecto-final-automation-testing-leandro-federico-sosa\reports\screenshots\20260522_114318_test_logout_regresa_a_login.png
+2026-05-22 11:47:02 | INFO | test_execution | Inicio test_get_post_existente_devuelve_estructura_valida
+2026-05-22 11:47:02 | INFO | test_execution | Inicio test_get_post_inexistente_devuelve_404
+2026-05-22 11:47:03 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Proyecto final QA Automation
+2026-05-22 11:47:03 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Segundo escenario parametrizado
+2026-05-22 11:47:03 | INFO | test_execution | Inicio test_delete_post_devuelve_respuesta_exitosa
+2026-05-22 11:47:04 | INFO | test_execution | Inicio test_flujo_api_crear_actualizar_y_eliminar_recurso
+2026-05-22 11:47:07 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:07 | INFO | test_execution | Inicio test_login_data_driven | usuario=standard_user | esperado=True
+2026-05-22 11:47:07 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:07 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:07 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:47:07 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:08 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:08 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:08 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:47:08 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:08 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:47:08 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:13 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:13 | INFO | test_execution | Inicio test_login_data_driven | usuario=locked_out_user | esperado=False
+2026-05-22 11:47:13 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:13 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:13 | INFO | LoginPage | Ejecutando login con usuario: locked_out_user
+2026-05-22 11:47:13 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:14 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:14 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:14 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:47:18 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:18 | INFO | test_execution | Inicio test_login_data_driven | usuario=usuario_invalido | esperado=False
+2026-05-22 11:47:18 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:19 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:19 | INFO | LoginPage | Ejecutando login con usuario: usuario_invalido
+2026-05-22 11:47:19 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:19 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:20 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:20 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:47:24 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:24 | INFO | test_execution | Inicio test_catalogo_muestra_productos_y_controles
+2026-05-22 11:47:24 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:25 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:26 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:47:26 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:27 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:27 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:27 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:47:27 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:27 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:47:27 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:47:27 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:47:27 | INFO | test_execution | Primer producto listado: Sauce Labs Backpack | $29.99
+2026-05-22 11:47:27 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:28 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:47:32 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:32 | INFO | test_execution | Inicio test_agregar_primer_producto_al_carrito
+2026-05-22 11:47:32 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:33 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:33 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:47:33 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:33 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:33 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:47:34 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:47:34 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:47:34 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:34 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:34 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'cart_item')
+2026-05-22 11:47:34 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:47:38 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:38 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:47:39 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:39 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:47:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:39 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:47:40 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:47:40 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:47:40 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:40 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:47:40 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:47:40 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:40 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:47:40 | INFO | CheckoutPage | Completando datos de checkout para: Federico Sosa
+2026-05-22 11:47:40 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'last-name')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'postal-code')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'continue')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'summary_total_label')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'finish')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-header')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-header')
+2026-05-22 11:47:41 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-text')
+2026-05-22 11:47:45 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:47:45 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:47:45 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:47:46 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:47:46 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:47:46 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:47:46 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:47:47 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:47:47 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:47:47 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:47:47 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:47:47 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:47:48 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 11:51:25 | INFO | test_execution | Inicio test_get_post_existente_devuelve_estructura_valida
+2026-05-22 11:51:25 | INFO | test_execution | Inicio test_get_post_inexistente_devuelve_404
+2026-05-22 11:51:25 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Proyecto final QA Automation
+2026-05-22 11:51:26 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Segundo escenario parametrizado
+2026-05-22 11:51:26 | INFO | test_execution | Inicio test_delete_post_devuelve_respuesta_exitosa
+2026-05-22 11:51:26 | INFO | test_execution | Inicio test_flujo_api_crear_actualizar_y_eliminar_recurso
+2026-05-22 11:51:29 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:51:29 | INFO | test_execution | Inicio test_login_data_driven | usuario=standard_user | esperado=True
+2026-05-22 11:51:29 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:51:30 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:51:30 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:51:30 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:51:30 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:51:30 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:51:31 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:51:31 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:31 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:51:31 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:35 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:51:35 | INFO | test_execution | Inicio test_login_data_driven | usuario=locked_out_user | esperado=False
+2026-05-22 11:51:35 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:51:37 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:51:37 | INFO | LoginPage | Ejecutando login con usuario: locked_out_user
+2026-05-22 11:51:37 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:51:37 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:51:38 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:51:38 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:51:42 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:51:42 | INFO | test_execution | Inicio test_login_data_driven | usuario=usuario_invalido | esperado=False
+2026-05-22 11:51:42 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:51:43 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:51:43 | INFO | LoginPage | Ejecutando login con usuario: usuario_invalido
+2026-05-22 11:51:43 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:51:43 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:51:43 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:51:44 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:51:48 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:51:48 | INFO | test_execution | Inicio test_catalogo_muestra_productos_y_controles
+2026-05-22 11:51:48 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:51:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:51:49 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:51:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:51:49 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:51:49 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:51:49 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:51:49 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:49 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:51:50 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:51:50 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:51:50 | INFO | test_execution | Primer producto listado: Sauce Labs Backpack | $29.99
+2026-05-22 11:51:50 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:50 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:51:54 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:51:54 | INFO | test_execution | Inicio test_agregar_primer_producto_al_carrito
+2026-05-22 11:51:54 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:51:55 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:51:56 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:51:56 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:51:57 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:51:57 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:51:57 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:51:57 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:57 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:51:57 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:51:57 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:51:57 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:51:57 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:51:58 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:51:58 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:51:58 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:51:58 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:58 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:51:58 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'cart_item')
+2026-05-22 11:51:58 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:52:02 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:52:02 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:52:02 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:52:03 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:52:03 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:52:03 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:52:03 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:52:03 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:52:04 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:52:04 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:52:04 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:52:04 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:52:04 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:52:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:52:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Completando datos de checkout para: Federico Sosa
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'last-name')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'postal-code')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'continue')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'summary_total_label')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'finish')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-header')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-header')
+2026-05-22 11:52:05 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-text')
+2026-05-22 11:52:10 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:52:10 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:52:10 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:52:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:52:11 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:52:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:52:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:52:11 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:52:11 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:52:11 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:52:11 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:52:11 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:52:12 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
+2026-05-22 11:55:20 | INFO | test_execution | Inicio test_get_post_existente_devuelve_estructura_valida
+2026-05-22 11:55:20 | INFO | test_execution | Inicio test_get_post_inexistente_devuelve_404
+2026-05-22 11:55:20 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Proyecto final QA Automation
+2026-05-22 11:55:20 | INFO | test_execution | Inicio test_post_crea_recurso_con_payload_parametrizado | title=Segundo escenario parametrizado
+2026-05-22 11:55:21 | INFO | test_execution | Inicio test_delete_post_devuelve_respuesta_exitosa
+2026-05-22 11:55:21 | INFO | test_execution | Inicio test_flujo_api_crear_actualizar_y_eliminar_recurso
+2026-05-22 11:55:24 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:55:24 | INFO | test_execution | Inicio test_login_data_driven | usuario=standard_user | esperado=True
+2026-05-22 11:55:24 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:55:25 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:55:25 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:55:25 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:55:25 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:55:25 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:55:25 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:55:26 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:26 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:55:26 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:30 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:55:30 | INFO | test_execution | Inicio test_login_data_driven | usuario=locked_out_user | esperado=False
+2026-05-22 11:55:30 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:55:31 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:55:32 | INFO | LoginPage | Ejecutando login con usuario: locked_out_user
+2026-05-22 11:55:32 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:55:33 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:55:33 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:55:33 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:55:37 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:55:37 | INFO | test_execution | Inicio test_login_data_driven | usuario=usuario_invalido | esperado=False
+2026-05-22 11:55:37 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:55:38 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:55:38 | INFO | LoginPage | Ejecutando login con usuario: usuario_invalido
+2026-05-22 11:55:38 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:55:38 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:55:39 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:55:39 | INFO | LoginPage | Esperando visibilidad del elemento: ('css selector', "h3[data-test='error']")
+2026-05-22 11:55:43 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:55:43 | INFO | test_execution | Inicio test_catalogo_muestra_productos_y_controles
+2026-05-22 11:55:43 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:55:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:55:45 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:55:45 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:55:46 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:55:46 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:55:46 | INFO | test_execution | Primer producto listado: Sauce Labs Backpack | $29.99
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:46 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:55:51 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:55:51 | INFO | test_execution | Inicio test_agregar_primer_producto_al_carrito
+2026-05-22 11:55:51 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:55:55 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:55:55 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:55:55 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:55:55 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:55:55 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:55:55 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:55:55 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:55:56 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:55:56 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:55:56 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:56 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:55:56 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'cart_item')
+2026-05-22 11:55:56 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:56:01 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:56:01 | INFO | test_execution | Inicio test_checkout_completo_de_un_producto
+2026-05-22 11:56:01 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:56:01 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:56:01 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:56:01 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:56:02 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:56:02 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_price')
+2026-05-22 11:56:02 | INFO | InventoryPage | Agregando primer producto al carrito: Sauce Labs Backpack | $29.99
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando elemento clickeable: ('css selector', '.inventory_item button.btn_inventory')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'shopping_cart_badge')
+2026-05-22 11:56:02 | INFO | InventoryPage | Esperando elemento clickeable: ('class name', 'shopping_cart_link')
+2026-05-22 11:56:03 | INFO | CartPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:56:03 | INFO | CartPage | Esperando listado de elementos visibles: ('class name', 'inventory_item_name')
+2026-05-22 11:56:03 | INFO | CartPage | Esperando elemento clickeable: ('id', 'checkout')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Completando datos de checkout para: Federico Sosa
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'first-name')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'last-name')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'postal-code')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'continue')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'summary_total_label')
+2026-05-22 11:56:03 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('id', 'finish')
+2026-05-22 11:56:04 | INFO | CheckoutPage | Esperando elemento clickeable: ('id', 'finish')
+2026-05-22 11:56:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-header')
+2026-05-22 11:56:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-header')
+2026-05-22 11:56:04 | INFO | CheckoutPage | Esperando visibilidad del elemento: ('class name', 'complete-text')
+2026-05-22 11:56:08 | INFO | utils.driver_factory | Navegador Chrome iniciado. Headless=False
+2026-05-22 11:56:08 | INFO | test_execution | Inicio test_logout_regresa_a_login
+2026-05-22 11:56:08 | INFO | LoginPage | Abriendo URL: https://www.saucedemo.com/
+2026-05-22 11:56:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('class name', 'login_logo')
+2026-05-22 11:56:11 | INFO | LoginPage | Ejecutando login con usuario: standard_user
+2026-05-22 11:56:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'user-name')
+2026-05-22 11:56:11 | INFO | LoginPage | Esperando visibilidad del elemento: ('id', 'password')
+2026-05-22 11:56:11 | INFO | LoginPage | Esperando elemento clickeable: ('id', 'login-button')
+2026-05-22 11:56:11 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'app_logo')
+2026-05-22 11:56:11 | INFO | InventoryPage | Esperando visibilidad del elemento: ('class name', 'title')
+2026-05-22 11:56:11 | INFO | InventoryPage | Esperando listado de elementos visibles: ('class name', 'inventory_item')
+2026-05-22 11:56:12 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'react-burger-menu-btn')
+2026-05-22 11:56:12 | INFO | InventoryPage | Esperando elemento clickeable: ('id', 'logout_sidebar_link')
