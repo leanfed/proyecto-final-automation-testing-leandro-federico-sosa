@@ -1,0 +1,4 @@
+username,password,should_login,expected_message
+standard_user,secret_sauce,true,
+locked_out_user,secret_sauce,false,Sorry, this user has been locked out.
+usuario_invalido,clave_invalida,false,Username and password do not match any user in this service

@@ -1,0 +1,17 @@
+{
+  "posts": [
+    {
+      "title": "Proyecto final QA Automation",
+      "body": "Validación de creación de recurso usando Requests y Pytest",
+      "userId": 1
+    },
+    {
+      "title": "Segundo escenario parametrizado",
+      "body": "Payload alternativo leído desde JSON externo",
+      "userId": 2
+    }
+  ],
+  "patch_update": {
+    "title": "Título actualizado por PATCH"
+  }
+}
